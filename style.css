@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-image: url("logo-img/privacy.jpg"), linear-gradient(45deg, rgb(9, 9, 9),rgb(39, 36, 36));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    padding-top: 20px;
+}
+.logo{
+    width: 150px;
+}
+.menu{
+    display: flex;
+    gap: 35px;
+    font-size: 25px;
+    color:rgb(255, 143, 105);
+    /* font-weight: bold; */
+}
+.item{
+    cursor: pointer;
+}
+.item:hover{
+    color:darkblue;
+    background-color:cornflowerblue;
+}
+.nav-h3{
+    color:coral;
+    font-size: 20px;
+}
+.nav-h1{
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+.btn{
+    background-color:coral;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    /* margin-left: 20px; */
+    margin-top: 15px;
+    font-weight: bold;
+}
+.description{
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+.bn-img{
+    width: 600px;
+    /* margin-top: 50px; */
+
+}
+.des-text{
+    width: 25%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.logo-container{
+    padding: 20px;
+    padding-right: 80px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo-2{
+    width: 180px;
+}
+.logo-1{
+    width: 300px;
+}
+.logo-3{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.logo-4{
+    width: 140px;
+}
+.logo-5{
+    width: 140px;
+    margin-left: 70px;
+}
+.our-services{
+    text-align: center;
+    
+}
+.service-title{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+.service-description{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.box-container{
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:center;
+    gap: 50px;
+}
+.box{
+    width: 300px;
+    height: 350px;
+    box-shadow: 4px 4px 15px gray;
+    border: 2px;
+    padding: 15px;
+    text-align: center;
+    /* margin: auto; */
+    /* background-color:bisque; */
+}
+.icon{
+    width: 120px;
+}
+
+.box-description{
+    font-size: 20px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-description{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container{
+    width: 30%;
+}
+.contact-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    margin: 10px;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+footer{
+    background-color:rgb(39, 36, 36);
+    color: white;
+    /* line-height: 5px; */
+    height: 40vh;
+    padding: 40px;
+}
+.footer-description1{
+    width: 20%; 
+}
+.footer-description5{
+    width: 15%;   
+}
+.footer-logo{
+    width: 70px;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+}
+.icon-header{
+    padding-top: 20px;
+    color: coral;
+}
+.logo-descrip{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.email{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    font-size: 15px;
+}
+.footer-menu{
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer-header{
+    margin: 30px 0px;
+    color:coral;
+}
+.phone{
+    margin-bottom: 20px;
+}
+.img-container{
+    height: 50vh;
+}
+.h2-color{
+    color: coral;
+}
+.contact-header{
+    color: rgb(233, 85, 32);
+    font-style: italic;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.li-h4{
+    color: coral;
+}
+
+@media screen and (max-width: 576px) {
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .description{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+    }
+    .des-text{
+        width: 100%;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    .menu{
+        font-size: 15px;    
+    }
+    .logo-container{
+        padding: 20px;
+        padding-right: 80px;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .logo-1{
+        padding-left: 50px;
+    }
+    .logo-2{
+        padding-left: 50px;
+    }
+    .logo-3{
+        padding-left: 50px;
+    }
+    .logo-4{
+        padding-left: 50px;
+    }
+    .logo-5{
+        margin-top: 30px;
+    }
+    .main-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-container{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+    }
+    footer{
+        padding: 10px;
+        height: auto;
+    }
+    .footer-description1{
+        width: 80%; 
+    }
+    .footer-description5{
+        width: 60%;   
+    }
+    .footer-logo{
+        width: 70px;
+    }
+    
+}
